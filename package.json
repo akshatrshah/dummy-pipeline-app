@@ -1,0 +1,11 @@
+{
+  "name": "dummy-pipeline-app",
+  "version": "1.0.0",
+  "description": "Minimal Node.js app used to trigger GitHub Actions for PipelineSync observability demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'Running unit tests...' && node -e \"console.log('All tests passed ✓')\"",
+    "lint": "echo 'Linting...' && node -e \"console.log('No lint errors ✓')\""
+  }
+}
